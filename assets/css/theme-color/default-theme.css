@@ -6,9 +6,9 @@ Author URI : http://www.markups.io/
 
 #mu-video:after,
 #mu-hero:after {
-	background-color: #37b721;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #37b721);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #37b721); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background-color: #37b721;
+     background: -webkit-linear-gradient(to right, #64b3f4, #37b721);  
+    background: linear-gradient(to right, #64b3f4, #37b721); */
 
 }
 

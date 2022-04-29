@@ -9,7 +9,7 @@
 }
 
 .hole{
-    background-color: #c6f3be;
+    background-color: #c6f3be !important;
 }
 
 .btn-special{
@@ -261,6 +261,8 @@ iframe {
 	transition: all 0.5s ease 0s;
 	height: 55px;
 	border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 15px 0px #000000; 
+    box-shadow: 2px 4px 15px 0px #000000;
 }
 
 .scrollToTop:hover,
@@ -275,7 +277,7 @@ iframe {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("assets/images/gc1.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
