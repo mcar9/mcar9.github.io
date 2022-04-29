@@ -1,3 +1,56 @@
+.gold{
+    background-color: #ffc70f;
+}
+.silver{
+    background-color: #d1d1d1;
+}
+.bronze{
+    background-color: #e88b27;
+}
+
+.hole{
+    background-color: #c6f3be;
+}
+
+.btn-special{
+    background:white;
+    padding: 6px;
+    border-radius: 5px;
+}
+.btn-special i{
+    color: black;
+}
+
+.fuzzy-bg{
+    background: rgba(55, 183, 33, 0.3) !important;
+    padding: 25px;
+}
+
+.green{
+    background-color:#37b721 !important;
+}
+.my-btn{
+  background-color: white; /* Green */
+  border-color: #37b721;
+  border-width: 5px;
+  border-style: solid;  
+    border-radius: 12px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.my-btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
 
 /*=====
 Template Name: Outing	
@@ -594,6 +647,7 @@ iframe {
 	float: left;
 	width: 100%;
 	margin: 15px 0;
+    height: ;
 }
 
 .mu-featured-tours-single-info {
@@ -939,7 +993,7 @@ iframe {
 }
 
 #mu-google-map iframe {
-	height: 550px;
+	height: 350px;
 	width: 100%;
 }
 
