@@ -10,7 +10,7 @@
     box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.33);
 }
 .price-container{
-    flex-grow: 2;
+    flex-grow: 5;
     display:flex;
     flex-direction: column-reverse;
     flex-flow: flex-end;
@@ -132,7 +132,7 @@
 	font-size: 18px !important;
 	padding: 10px 20px !important;
 	border-radius: 25px !important;
-	margin-top: 30px !important;
+	/*margin-top: 30px !important;*/
     color: #37b721 !important;
     transition-duration: 0.4s;
     -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33); 
@@ -486,7 +486,7 @@ iframe {
 	font-size: 40px;
 	color: #fff;
 	display: inline-block;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .mu-scrolldown:hover,
