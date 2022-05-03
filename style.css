@@ -1,5 +1,11 @@
+
 .gold{
     background-color: #ffc70f;
+}
+.sponsor h3{
+    color: white;
+    text-shadow: 2px 3px 3px rgba(0,0,0,0.18);
+    font-size: 30px !important;
 }
 .silver{
     background-color: #d1d1d1;
@@ -9,17 +15,30 @@
 }
 
 .hole{
-    background-color: #c6f3be !important;
+    background-color: #8ee77e !important;
+}
+.lt-green{
+    background-color: #d9f7d4 !important;
 }
 
 .btn-special{
     background:white;
-    padding: 6px;
-    border-radius: 5px;
+    padding: 4px 18px 4px 18px;
+    border: 1px solid #35ac20;
+    border-radius: 20px;
+    color: #35ac20 !important;
+    -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33); 
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33);
 }
+
 .btn-special i{
-    color: black;
+    color: #35ac20;
 }
+.btn-special a{
+    color: #35ac20;
+}
+
+
 
 .fuzzy-bg{
     background: rgba(55, 183, 33, 0.3) !important;
@@ -41,14 +60,35 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 8px 12px;
   transition-duration: 0.4s;
   cursor: pointer;
+    -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33); 
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33);
 }
 
 .my-btn:hover {
   background-color: #4CAF50;
   color: white;
+}
+.mu-book-now-btn {
+	display: inline-block !important;
+	border: 1px solid #37b721 !important;
+	background-color: #fff !important;
+	text-transform: uppercase !important;
+	font-size: 18px !important;
+	padding: 10px 20px !important;
+	border-radius: 25px !important;
+	margin-top: 30px !important;
+    color: #37b721 !important;
+    transition-duration: 0.4s;
+    -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33); 
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.33);
+}
+
+.mu-book-now-btn:hover {
+  background-color: #4CAF50 !important;
+  color: white !important;
 }
 
 
@@ -444,16 +484,7 @@ iframe {
 	display: inline-block;
 }
 
-.mu-book-now-btn {
-	display: inline-block;
-	border: 1px solid #fff;
-	background-color: #fff;
-	text-transform: uppercase;
-	font-size: 18px;
-	padding: 10px 20px;
-	border-radius: 25px;
-	margin-top: 30px;
-}
+
 
 /*--------------------*/
 /* ABOUT US */
@@ -649,7 +680,6 @@ iframe {
 	float: left;
 	width: 100%;
 	margin: 15px 0;
-    height: ;
 }
 
 .mu-featured-tours-single-info {
@@ -658,6 +688,9 @@ iframe {
 	position: relative;
 	width: 100%;
 	padding: 20px 10px;
+    min-height: 280px !important;
+    -webkit-box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.33); 
+    box-shadow: 3px 3px 9px 1px rgba(0,0,0,0.33);
 }
 
 .mu-featured-tours-single h3 {
@@ -672,6 +705,7 @@ iframe {
 }
 
 .mu-price-tag {
+    z-index: 99;
 	position: absolute;
 	bottom: 25px;
 	left: 15px;
@@ -689,6 +723,9 @@ iframe {
 	font-size: 15px;
 	text-transform: capitalize;
 	float: right;
+    position: absolute;
+    bottom: 25px;
+    right: 12px;
 }
 
 /*--------------------*/
