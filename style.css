@@ -8,8 +8,9 @@
 	width: 100%;
 }
 .logo-item{
-	height: 250px;
 	max-width: 300px;
+	height: fit-content;
+    	margin: 1em;
 }
 
 .sponsor-logo{
